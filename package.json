@@ -1,25 +1,25 @@
 {
-  "name": "discordrss",
+  "name": "voltarediscordrssfeed",
   "version": "1.0.0",
-  "description": "discord rss bot",
+  "description": "discordapp rss feed",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/baiter/discordrss.git"
-  },
+  "keywords": [
+    "discordbot",
+    "rss",
+    "heroku"
+  ],
+  "author": "bait",
+  "license": "ISC",
   "dependencies": {
     "discord.js": "*",
     "request": "*",
     "cheerio": "*",
     "tosource": "*"
   },
-  "author": "baiter",
-  "license": "ISC",
-  "keywords": [
-    "rss",
-    "discordbot"
-  ]
+  "engines": {
+    "node": "6.9.4"
+  }
 }
